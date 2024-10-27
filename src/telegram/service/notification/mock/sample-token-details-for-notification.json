@@ -1,0 +1,164 @@
+{
+    "timestamp": 1728594276343,
+    "notificationType": "token_launch",
+    "liquidityRatio": 101,
+    "primaryPair": {
+      "chainId": "solana",
+      "dexId": "raydium",
+      "url": "https://dexscreener.com/solana/cv9ramjdqsrd9xb86spqtf4ebpj5qlcqfnrqhvqsk6sy",
+      "pairAddress": "Cv9rAmJdQsrD9XB86spqtf4EBPJ5qLcQfnRqhvQsk6sY",
+      "baseToken": {
+        "address": "CoM6GBzCqG3ZCG3jBiDLuj7Rwee5ifdBrDiPWjL3pump",
+        "name": "no texture cat",
+        "symbol": "⬛🟪"
+      },
+      "quoteToken": {
+        "address": "So11111111111111111111111111111111111111112",
+        "name": "Wrapped SOL",
+        "symbol": "SOL"
+      },
+      "priceNative": "0.0000001044",
+      "priceUsd": "0.00001437",
+      "txns": {
+        "m5": {
+          "buys": 41,
+          "sells": 31
+        },
+        "h1": {
+          "buys": 427,
+          "sells": 353
+        },
+        "h6": {
+          "buys": 427,
+          "sells": 353
+        },
+        "h24": {
+          "buys": 427,
+          "sells": 353
+        }
+      },
+      "volume": {
+        "h24": 99385.07,
+        "h6": 99385.07,
+        "h1": 99385.07,
+        "m5": 6279.59
+      },
+      "priceChange": {
+        "m5": 6.05,
+        "h1": -72.87,
+        "h6": -72.87,
+        "h24": -72.87
+      },
+      "liquidity": {
+        "usd": 11520.28,
+        "base": 403291630,
+        "quote": 41.5957
+      },
+      "fdv": 14375,
+      "marketCap": 14375,
+      "pairCreatedAt": 1728593072000,
+      "info": {
+        "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/CoM6GBzCqG3ZCG3jBiDLuj7Rwee5ifdBrDiPWjL3pump.png",
+        "websites": [
+          {
+            "label": "Website",
+            "url": "https://pump.fun/CoM6GBzCqG3ZCG3jBiDLuj7Rwee5ifdBrDiPWjL3pump"
+          }
+        ],
+        "socials": [
+          {
+            "type": "telegram",
+            "url": "https://t.me/notexturecat"
+          }
+        ]
+      }
+    },
+    "spikeInVol": -0.2417867190715869,
+    "formattedAth": "49.8K",
+    "marketCapValue": 12767.89999486239,
+    "tokenMetadata": {
+      "model": "sft",
+      "updateAuthorityAddress": "TSLvdd1pWpHVjahSpsvCXUbgwsL3JAcvokwaKt1eokM",
+      "json": {
+        "name": "no texture cat",
+        "symbol": "⬛🟪",
+        "description": "⬛🟪⬛🟪⬛🟪⬛🟪\r\n🟪⬛🟪⬛🟪⬛🟪⬛\r\n⬛🟪⬛🟪⬛🟪⬛🟪\r\n🟪⬛🟪⬛🟪⬛🟪⬛\r\n⬛🟪⬛🟪⬛🟪⬛🟪\r\n🟪⬛🟪⬛🟪⬛🟪⬛",
+        "image": "https://ipfs.io/ipfs/QmQT85Mh28KysFkjftnXw61uSdm36wVPgoVtfx3pQY9Wry",
+        "showName": true,
+        "createdOn": "https://pump.fun",
+        "twitter": "",
+        "telegram": "",
+        "website": ""
+      },
+      "jsonLoaded": true,
+      "name": "no texture cat",
+      "symbol": "⬛🟪",
+      "uri": "https://ipfs.io/ipfs/QmQT85Mh28KysFkjftnXw61uSdm36wVPgoVtfx3pQY9Wry",
+      "isMutable": false,
+      "primarySaleHappened": false,
+      "sellerFeeBasisPoints": 0,
+      "editionNonce": 254,
+      "creators": [],
+      "tokenStandard": 2,
+      "collection": null,
+      "collectionDetails": null,
+      "uses": null,
+      "programmableConfig": null,
+      "address": "CoM6GBzCqG3ZCG3jBiDLuj7Rwee5ifdBrDiPWjL3pump",
+      "metadataAddress": "4DES9ikNQamUQy4vuaktkoY4FVApqt6PXEKDpJjLbwpD",
+      "mint": {
+        "model": "mint",
+        "address": "CoM6GBzCqG3ZCG3jBiDLuj7Rwee5ifdBrDiPWjL3pump",
+        "mintAuthorityAddress": null,
+        "freezeAuthorityAddress": null,
+        "decimals": 6,
+        "supply": {
+          "basisPoints": "038d7ea4c05c2f",
+          "currency": {
+            "symbol": "⬛🟪",
+            "decimals": 6,
+            "namespace": "spl-token"
+          }
+        },
+        "isWrappedSol": false,
+        "currency": {
+          "symbol": "⬛🟪",
+          "decimals": 6,
+          "namespace": "spl-token"
+        }
+      }
+    },
+    "formatNumberOfHolders": "222",
+    "numberHolders": 222,
+    "devWalletPercentage": "0.00",
+    "image": "https://ipfs.io/ipfs/QmeyFxiUqRViVydu1UZZcKvx8BVv4piNVvMndJptHs1tRe",
+    "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/CoM6GBzCqG3ZCG3jBiDLuj7Rwee5ifdBrDiPWjL3pump.png",
+    "liquidity": 13009.421257558042,
+    "formattedLiquidity": "13,009.421",
+    "lpLockedData": {
+      "lpLockedUsd": 13009.421257558042,
+      "lpLockedPercentage": 100
+    },
+    "liquidity_lock_percentage": 100,
+    "formattedMarketCap": "12.8K",
+    "formattedSupply": "1000.0M",
+    "formattedTop10holders": "58.55",
+    "top10holders": 58.55082891640527,
+    "marketName": "Raydium",
+    "tokenAge": "0 days 0 hrs",
+    "ageOfTokenInSeconds": 1190,
+    "priceChange5min": "+6%",
+    "priceTrend5min": "",
+    "priceChange1Hr": "-72.9%",
+    "priceChange24Hr": "-72.9%",
+    "volume5min": "6.3K",
+    "volume1Hr": "99.4K",
+    "volume24Hr": "99.4K",
+    "mintAuthority": null,
+    "freezeAuthority": null,
+    "twitterUrl": "",
+    "telegramUrl": "https://t.me/notexturecat",
+    "websiteUrl": "https://pump.fun/CoM6GBzCqG3ZCG3jBiDLuj7Rwee5ifdBrDiPWjL3pump",
+    "decimals": 6,
+    "priceTokenUSDC": "0.00001437"
+  }

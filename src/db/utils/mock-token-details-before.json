@@ -1,0 +1,168 @@
+{
+    "timestamp": 1727454660355,
+    "primaryPair": {
+      "chainId": "solana",
+      "dexId": "raydium",
+      "url": "https://dexscreener.com/solana/zcdaw3jpcqey8jyvxnvmqs2cu35cyddy4ot7v8ednhz",
+      "pairAddress": "zcdAw3jpcqEY8JYVxNVMqs2cU35cyDdy4ot7V8edNhz",
+      "baseToken": {
+        "address": "4Cnk9EPnW5ixfLZatCPJjDB1PUtcRpVVgTQukm9epump",
+        "name": "DADDY TATE",
+        "symbol": "DADDY"
+      },
+      "quoteToken": {
+        "address": "So11111111111111111111111111111111111111112",
+        "name": "Wrapped SOL",
+        "symbol": "SOL"
+      },
+      "priceNative": "0.0007110",
+      "priceUsd": "0.1128",
+      "txns": {
+        "m5": {
+          "buys": 24,
+          "sells": 18
+        },
+        "h1": {
+          "buys": 285,
+          "sells": 153
+        },
+        "h6": {
+          "buys": 1463,
+          "sells": 961
+        },
+        "h24": {
+          "buys": 4911,
+          "sells": 3729
+        }
+      },
+      "volume": {
+        "h24": 3995576,
+        "h6": 1060654.62,
+        "h1": 159557.42,
+        "m5": 15914.34
+      },
+      "priceChange": {
+        "m5": 1.78,
+        "h1": -3.94,
+        "h6": -5.99,
+        "h24": 4.96
+      },
+      "liquidity": {
+        "usd": 2507605.67,
+        "base": 11100627,
+        "quote": 7910.3206
+      },
+      "fdv": 67657725,
+      "marketCap": 67657725,
+      "pairCreatedAt": 1717964299000,
+      "info": {
+        "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/4Cnk9EPnW5ixfLZatCPJjDB1PUtcRpVVgTQukm9epump.png",
+        "websites": [
+          {
+            "label": "Website",
+            "url": "https://daddysuniversity.com/"
+          }
+        ],
+        "socials": [
+          {
+            "type": "twitter",
+            "url": "https://x.com/daddytatecto?s=21&t=vGsyxXKadHr8hUMHWu6Frg"
+          },
+          {
+            "type": "telegram",
+            "url": "https://t.me/DADDYTATECTO"
+          }
+        ]
+      }
+    },
+    "spikeInVol": 0.19688623694216156,
+    "formattedAth": "194.1M",
+    "tokenMetadata": {
+      "model": "sft",
+      "updateAuthorityAddress": "TSLvdd1pWpHVjahSpsvCXUbgwsL3JAcvokwaKt1eokM",
+      "json": {
+        "name": "DADDY TATE",
+        "symbol": "DADDY",
+        "description": "Not Found",
+        "image": "https://cf-ipfs.com/ipfs/QmTY3L4rGs7Cu5aVsQSDaxcMMmwGk1AfeQRqi22vUBbUcE",
+        "showName": true,
+        "createdOn": "",
+        "twitter": "",
+        "telegram": "",
+        "website": ""
+      },
+      "jsonLoaded": false,
+      "name": "DADDY TATE",
+      "symbol": "DADDY",
+      "uri": "https://cf-ipfs.com/ipfs/QmTY3L4rGs7Cu5aVsQSDaxcMMmwGk1AfeQRqi22vUBbUcE",
+      "isMutable": false,
+      "primarySaleHappened": false,
+      "sellerFeeBasisPoints": 0,
+      "editionNonce": 255,
+      "creators": [
+        
+      ],
+      "tokenStandard": 2,
+      "collection": null,
+      "collectionDetails": null,
+      "uses": null,
+      "programmableConfig": null,
+      "address": "4Cnk9EPnW5ixfLZatCPJjDB1PUtcRpVVgTQukm9epump",
+      "metadataAddress": "CJHhoxrzKkU3gN5zrmaxhPpDB3S3NnSwDKA1dPBjJS3a",
+      "mint": {
+        "model": "mint",
+        "address": "4Cnk9EPnW5ixfLZatCPJjDB1PUtcRpVVgTQukm9epump",
+        "mintAuthorityAddress": null,
+        "freezeAuthorityAddress": null,
+        "decimals": 6,
+        "supply": {
+          "basisPoints": "0221691030ac7e",
+          "currency": {
+            "symbol": "DADDY",
+            "decimals": 6,
+            "namespace": "spl-token"
+          }
+        },
+        "isWrappedSol": false,
+        "currency": {
+          "symbol": "DADDY",
+          "decimals": 6,
+          "namespace": "spl-token"
+        }
+      }
+    },
+    "formatNumberOfHolders": "58,983",
+    "numberHolders": 58983,
+    "devWalletPercentage": "0.00",
+    "image": "https://cf-ipfs.com/ipfs/QmXQ2NFebNVS1GQGvdXpj8PLM8H1P96A7pRVXF6geMtrnJ",
+    "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/4Cnk9EPnW5ixfLZatCPJjDB1PUtcRpVVgTQukm9epump.png",
+    "liquidity": 2543306.8785582674,
+    "formattedLiquidity": "2,543,306.879",
+    "lpLockedData": {
+      "lpLockedUsd": 2061725.2903088944,
+      "lpLockedPercentage": 81.08114221037805
+    },
+    "liquidity_lock_percentage": "81.08",
+    "formattedMarketCap": "67.7M",
+    "marketCapValue": 67657725,
+    "formattedSupply": "599.7M",
+    "formattedTop10holders": "22.89",
+    "top10holders": 22.888003213245057,
+    "marketName": "Raydium",
+    "tokenAge": "109 days 20 hrs",
+    "ageOfTokenInSeconds": 9490338,
+    "priceChange5min": "+1.8%",
+    "priceTrend5min": "",
+    "priceChange1Hr": "-3.9%",
+    "priceChange24Hr": "+5%",
+    "volume5min": "15.9K",
+    "volume5minTrend": "",
+    "volume1Hr": "159.6K",
+    "volume24Hr": "4.0M",
+    "mintAuthority": null,
+    "freezeAuthority": null,
+    "twitterUrl": "https://x.com/daddytatecto?s=21&t=vGsyxXKadHr8hUMHWu6Frg",
+    "telegramUrl": "https://t.me/DADDYTATECTO",
+    "websiteUrl": "https://daddysuniversity.com/",
+    "decimals": 6
+  }

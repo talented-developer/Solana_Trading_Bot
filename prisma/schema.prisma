@@ -1,0 +1,107 @@
+datasource db {
+  provider = "sqlite" // TODO: uncomment on local development
+  //provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id            Int             @id @default(autoincrement())
+  telegramId    BigInt          @unique
+  walletAddress String?
+  refLink       String          @unique
+  inviterId     Int?
+  createdAt     DateTime        @default(now())
+  updatedAt     DateTime        @default(now())
+  userDetails   UserDetails?
+  Settings      Settings?
+  userSecret    UserSecret?
+  subscriptions Subscription[]
+  tradings      Transaction[]
+  Claims        Claim[]
+  role          String          @default("PRIMITIVE")
+  AlertSettings AlertSettings[]
+}
+
+model AlertSettings {
+  id              Int      @id @default(autoincrement())
+  userId          Int      @unique
+  marketCapRanges String?
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @default(now())
+  user            User     @relation(fields: [userId], references: [id])
+}
+
+model UserSecret {
+  id        Int      @id @default(autoincrement())
+  userId    Int      @unique
+  secretKey String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id])
+}
+
+model UserDetails {
+  id                Int      @id @default(autoincrement())
+  userId            Int      @unique
+  telegramUsername  String?
+  telegramFirstName String
+  user              User     @relation(fields: [userId], references: [id])
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @default(now())
+}
+
+model Settings {
+  id             Int      @id @default(autoincrement())
+  userId         Int      @unique
+  minBuy         Float    @default(0.01)
+  mevProtection  Boolean  @default(true)
+  slippage       Int      @default(1)
+  maxGasPrice    Int      @default(300)
+  priorityFee    Float    @default(0.0001)
+  withdrawWallet String?
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @default(now())
+  user           User     @relation(fields: [userId], references: [id])
+}
+
+model Subscription {
+  id              Int      @id @default(autoincrement())
+  userId          Int
+  plan            String
+  amountUSDC      Float
+  transactionHash String
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+  user            User     @relation(fields: [userId], references: [id])
+}
+
+model Transaction {
+  id              Int      @id @default(autoincrement())
+  userId          Int
+  tokenAddress    String
+  transactionHash String   @unique
+  amountTokens    String
+  amountSol       String
+  pricePerToken   String?
+  solPriceInUsdc  String
+  isInitial       Boolean
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @default(now())
+  user            User     @relation(fields: [userId], references: [id])
+}
+
+model Claim {
+  id              Int      @id @default(autoincrement())
+  userId          Int
+  amountSol       Float
+  amountUSDC      Float
+  transactionHash String   @unique
+  claimedAt       DateTime @default(now())
+  User            User     @relation(fields: [userId], references: [id])
+
+  @@index([userId])
+}

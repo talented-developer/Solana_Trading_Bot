@@ -1,0 +1,84 @@
+[
+  {
+    "five_minutes": {
+      "pnl": {
+        "investedUsd": 14091134031113.846,
+        "profitUsd": -7921447977528.905,
+        "investedSol": 101168632616,
+        "profitSol": -56872786708,
+        "profitPercentage": -56.21583018114793,
+        "gainLoss": 0.43784169818852064,
+        "percentageGainLoss": -56.21583018114793,
+        "winRate": 42.857142857142854
+      },
+      "priceChange": {
+        "priceChangeSol": 6.959338188330362,
+        "priceChangeUSD": 969.3218603816831,
+        "percentageChange": 3261.0742379372787
+      },
+      "startTime": 1724969980,
+      "endTime": 1724970189,
+      "duration": 209
+    },
+    "one_hour": {
+      "pnl": {
+        "investedUsd": 14698584387085.91,
+        "profitUsd": -8528898333500.968,
+        "investedSol": 105529880033,
+        "profitSol": -61234034125,
+        "profitPercentage": -58.02530440274513,
+        "gainLoss": 0.41974695597254874,
+        "percentageGainLoss": -58.02530440274513,
+        "winRate": 42.857142857142854
+      },
+      "priceChange": {
+        "priceChangeSol": -15.461225140966256,
+        "priceChangeUSD": -2153.4955065917006,
+        "percentageChange": -68.30982539764379
+      },
+      "startTime": 1724969924,
+      "endTime": 1724970189,
+      "duration": 265
+    },
+    "six_hours": {
+      "pnl": {
+        "investedUsd": 14698584387085.91,
+        "profitUsd": -8528898333500.968,
+        "investedSol": 105529880033,
+        "profitSol": -61234034125,
+        "profitPercentage": -58.02530440274513,
+        "gainLoss": 0.41974695597254874,
+        "percentageGainLoss": -58.02530440274513,
+        "winRate": 42.857142857142854
+      },
+      "priceChange": {
+        "priceChangeSol": -15.461225140966256,
+        "priceChangeUSD": -2153.4955065917006,
+        "percentageChange": -68.30982539764379
+      },
+      "startTime": 1724969924,
+      "endTime": 1724970189,
+      "duration": 265
+    },
+    "one_day": {
+      "pnl": {
+        "investedUsd": 14698584387085.91,
+        "profitUsd": -8528898333500.968,
+        "investedSol": 105529880033,
+        "profitSol": -61234034125,
+        "profitPercentage": -58.02530440274513,
+        "gainLoss": 0.41974695597254874,
+        "percentageGainLoss": -58.02530440274513,
+        "winRate": 42.857142857142854
+      },
+      "priceChange": {
+        "priceChangeSol": -15.461225140966256,
+        "priceChangeUSD": -2153.4955065917006,
+        "percentageChange": -68.30982539764379
+      },
+      "startTime": 1724969924,
+      "endTime": 1724970189,
+      "duration": 265
+    }
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json.schemastore.org/nest-cli",
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "src",
+  "compilerOptions": {
+    "deleteOutDir": true,
+    "assets": [
+      "config/i18n/**/*",
+      "ssl/**/*",
+      {
+        "include": "telegram/assets/**",
+        "outDir": "dist/src/"
+      }
+    ],
+    "watchAssets": true
+  }
+}

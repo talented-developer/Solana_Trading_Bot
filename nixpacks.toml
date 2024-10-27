@@ -1,0 +1,17 @@
+[variables]
+NODE_VERSION = "20"
+
+[system]
+packages = ["cairo", "jpeg", "pango", "giflib", "g++", "make"]
+
+[phases.setup]
+commands = [
+  "npm install -g corepack@0.24.1 && corepack enable",
+  "yarn install --check-cache"
+]
+
+[phases.build]
+commands = ["yarn build"]
+
+[phases.start]
+commands = ["yarn run start:prod"]

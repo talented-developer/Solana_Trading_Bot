@@ -1,0 +1,59 @@
+name: Node.js CI
+
+on:
+  push:
+    branches:
+      [ test, main ]
+  pull_request:
+    branches:
+      [ test, main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [ 20.10.0 ]
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Enable corepack
+        run: |
+          npm install --global corepack
+          corepack enable
+          corepack prepare yarn@4.3.1 --activate
+
+      - name: Check Prisma Provider
+        run: node non-bll-scipts/check-db-provider.js
+        
+      - name: Set YARN_ENABLE_IMMUTABLE_INSTALLS
+        run: echo "YARN_ENABLE_IMMUTABLE_INSTALLS=false" >> $GITHUB_ENV
+
+      - name: Install dependencies
+        run: yarn install
+
+      - name: Generate Prisma Client
+        run: |
+          if [ -f "prisma/schema.prisma" ]; then
+            yarn prisma:generate
+          fi
+
+      - name: Create .env.test file with secrets
+        run: |
+          echo "HELIUS_RPC_URL=${{ secrets.HELIUS_RPC_URL }}" >> .env.test
+          echo "SHYFT_API_KEY=${{ secrets.SHYFT_API_KEY }}" >> .env.test
+          echo "MOCK_PUBLIC_KEY=${{ secrets.MOCK_PUBLIC_KEY }}" >> .env.test
+          echo "SOLSCAN_API_KEY=${{ secrets.SOLSCAN_API_KEY }}" >> .env.test
+
+      - name: Build the project
+        run: yarn build
+
+      - name: Run tests
+        run: yarn test

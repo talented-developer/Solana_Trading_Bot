@@ -1,0 +1,19 @@
+{
+    "data": {
+        "So11111111111111111111111111111111111111112": {
+            "id": "So11111111111111111111111111111111111111112",
+            "mintSymbol": "SOL",
+            "vsToken": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+            "vsTokenSymbol": "USDC",
+            "price": 131.231277726
+        },
+        "AZsHEMXd36Bj1EMNXhowJajpUXzrKcK57wW4ZGXVa7yR": {
+            "id": "AZsHEMXd36Bj1EMNXhowJajpUXzrKcK57wW4ZGXVa7yR",
+            "mintSymbol": "GUAC",
+            "vsToken": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+            "vsTokenSymbol": "USDC",
+            "price": 4.80112e-8
+        }
+    },
+    "timeTaken": 0.008616634000645718
+}

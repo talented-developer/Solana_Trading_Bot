@@ -1,0 +1,75 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "Debug Jest Tests",
+        "program": "${workspaceFolder}/node_modules/.bin/jest",
+        "args": [
+          "--runInBand",
+          "--config",
+          "${workspaceFolder}/jest.config.js"
+        ],
+        "cwd": "${workspaceFolder}",
+        "console": "integratedTerminal",
+        "internalConsoleOptions": "neverOpen",
+        "skipFiles": ["<node_internals>/**"],
+        "runtimeArgs": [
+          "--require",
+          "ts-node/register"
+        ],
+        "env": {
+          "TS_NODE_PROJECT": "tsconfig.json"
+        }
+      },
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "Debug Specific Jest Test File",
+        "program": "${workspaceFolder}/node_modules/.bin/jest",
+        "args": [
+          "--runInBand",
+          "--config",
+          "${workspaceFolder}/jest.config.js",
+          "path/to/your/testfile.spec.ts"
+        ],
+        "cwd": "${workspaceFolder}",
+        "console": "integratedTerminal",
+        "internalConsoleOptions": "neverOpen",
+        "skipFiles": ["<node_internals>/**"],
+        "runtimeArgs": [
+          "--require",
+          "ts-node/register"
+        ],
+        "env": {
+          "TS_NODE_PROJECT": "tsconfig.json"
+        }
+      },
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "Debug Jest Test by Name",
+        "program": "${workspaceFolder}/node_modules/.bin/jest",
+        "args": [
+          "--runInBand",
+          "--config",
+          "${workspaceFolder}/jest.config.js",
+          "--testNamePattern",
+          "your test name"
+        ],
+        "cwd": "${workspaceFolder}",
+        "console": "integratedTerminal",
+        "internalConsoleOptions": "neverOpen",
+        "skipFiles": ["<node_internals>/**"],
+        "runtimeArgs": [
+          "--require",
+          "ts-node/register"
+        ],
+        "env": {
+          "TS_NODE_PROJECT": "tsconfig.json"
+        }
+      }
+    ]
+  }
+  

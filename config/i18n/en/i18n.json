@@ -1,0 +1,290 @@
+{
+  "test": {
+    "test_menu_title": "Title",
+    "test": "Triggered command /test {film}\n\n {id}",
+    "film_data": "Triggered command /test {film_id}",
+    "watch": "Watch {filmId}",
+    "enter_film_scene": "You entered Film section of {film}, {id}"
+  },
+  "description": "🤖 Welcome to Algora Bot!\n\nYour personal assistant for finding blue chips.\n\n🔹 Features:\n┣━ 🎒 Wallet menu\n┣━ 🎯 Send token address to trade\n┣━ ⚙️ Manage your filters for calls and trades\n┣━ 🛄 Manage your assets, buy/sell tokens\n┣━ ❓ Help menu\n┣━ 🔥 Manage subscriptions\n┣━ 💰 Invite friends and get rewards\n\n🚀 Let's get started and make your experience seamless!",
+  "commands_descriptions": {
+    "wallet": "🎒 Wallet menu",
+    "trade": "🎯 Send token address to trade",
+    "settings": "⚙️ Manage your filters for calls and trades",
+    "portfolio": "🛄 Manage your assets, buy/sell tokens",
+    "help": "❓ Help menu",
+    "plan": "🔥 Manage subscriptions",
+    "referral": "💰 Invite friends and get rewards"
+  },
+  "buttons": {
+    "faq": "📖 FAQ",
+    "export_pk": "⚠️ Export Private Key",
+    "send_button": "Broadcast call",
+    "send_message_button": "Send to All",
+    "set_slippage": "✍️ Slippage %",
+    "priority_fee_no_action": "~ Priority Fee ~",
+    "priority_fee_medium": "🏃‍♀️ 0.0015 SOL",
+    "priority_fee_high": "🚗 0.0075 SOL",
+    "priority_fee_ultimate": "🏎️ 0.02 SOL",
+    "priority_fee": "✍️ {priorityFee} SOL",
+    "withdraw_wallet": "📤 Withdraw Wallet",
+    "marketcap_1k_100k": " <100K",
+    "marketcap_100k_1m": "100K-1M",
+    "marketcap_1m_10m": "1M-10M",
+    "marketcap_10m_plus": "10M+",
+    "bronze": "Bronze",
+    "silver": "Silver",
+    "gold": "Gold",
+    "subscribe": "Subscribe",
+    "change_plan": "Change Plan",
+    "trade": "💰 Buy ${token_name}",
+    "choose": "Choose",
+    "trade_settings": "⚙️ Trade Settings",
+    "alert_settings": "⚙️ Call Settings",
+    "back": "◄ Back",
+    "home": "🏠 Home",
+    "close": "Close",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "refresh": "Refresh",
+    "deposit_sol": "Deposit SOL",
+    "withdraw_sol": "Withdraw SOL",
+    "swap_sol_usdc": "Swap SOL-USDC",
+    "swap_usdc_sol": "Swap USDC-SOL",
+    "back_to_wallet": "◄ Back",
+    "holder_scan": "🔎️ HolderScan",
+    "pump_fun": "💊 Pump Fun",
+    "rug_check": "🍯 RugCheck.io",
+    "ttf_bot_bot": "🤖 TTF Bot",
+    "dex_screen": "💻 DexScreen",
+    "raydium": "☢️ Raydium",
+    "sol_scan": "👻 SolScan",
+    "bubble_maps": "🫧 Bubblemaps",
+    "checkdex": "🏁 Checkdex",
+    "x_com": "🐥 Twitter Mentions",
+    "buy_section": "---BUY---",
+    "1_sol_buy": "1.0 SOL",
+    "2_sol_buy": "2.0 SOL",
+    "0.2_sol_buy": "0.2 SOL",
+    "set_min_buy": "✍️ {amount} SOL",
+    "min_buy": "{amount} SOL",
+    "buy_x_sol": "{amount} SOL",
+    "sell_section": "---SELL---",
+    "sell_10": "10%",
+    "sell_25": "25%",
+    "sell_50": "50%",
+    "sell_100": "100%",
+    "sell_percentage": "{percentage}%",
+    "sell_initial": "Sell Initial {initialAmount} tokens",
+    "extra_section": "---EXTRA---",
+    "change_slippage": "✏ Slippage",
+    "priority": "✏ Priority",
+    "to_call_menu": "🔎 Analyze",
+    "generate_pnl": "🎨 Generate PNL chart",
+    "claim_rewards_sol": "💰 Claim SOL",
+    "claim_rewards_usdc": "💰 Claim USDC",
+    "get_ref_link": "📋 Copy Ref Link!",
+    "join_community": "🤝 Join community!",
+    "plan": "📋 Plan",
+    "turn_on_mev": "🟢 Mev Protection",
+    "turn_off_mev": "🔴 Mev Protection"
+  },
+  "calls_token_info": "{type_of_call}\n{price_trend}\n<code>{token_address}</code>\n\n<a href=\"{token_image}\">💎</a> {token_name} ${token_symbol}\n🔆 Sol @ {market_name}\n\n🔥 Call Strength: {score}/10\n💰 MC: ${market_cap}\n\uD83D\uDCCA ATH: ${ath}\n\uD83D\uDCA6 LP: ${liquidity} ({liquidityRatio})\n\uD83D\uDD12 LP Locked: {liquidity_lock_percentage}%\n🕰️ Age: {token_age}\n🪪 Top 10 Wallets: {top_10_holders}%\n🎯 Token Win Rate: {win_rate}\n🛠 Dev Wallet: {creator_percentage}%\n🤚 Holders: {number_holders}\n🔢 Supply: {supply}\n🐳 Whales (Top 20): {whale_details}/20\n\n💰 Price: 5m: {price_change_5min} | 1h: {price_change_1hr} | 24h: {price_change_24hr}\n📍 Vol: 5m: ${volume_5min} | 1h: ${volume_1hr} | 24h: ${volume_24hr}\n\n➕ Mintable: {mint_authority}\n🔄 Mutable: {is_mutable}\n🧊 Freezable: {freeze_status}\n\n🔗 <a href=\"{dexscreen}\">DexS</a> | <a href=\"{dextools}\">DexT</a> | <a href=\"{birdeye}\">BirdEye</a>\n\n🔗 <a href=\"{x_com_link}\">X</a> | <a href=\"{telegram}\">TG</a> | <a href=\"{website}\">Site</a> | <a href=\"{x_com_mentions}\">X Mentions</a>\n\n🔗 <a href=\"{check_dex}\">CheckDex</a> | <a href=\"{holder_scan}\">HolderScan</a> | <a href=\"{pump_fun}\">PumpFun</a> | <a href=\"{rug_check}\">RugCheck</a> | <a href=\"{ttf_bot}\">TTF Bot</a> | <a href=\"{solscan}\">Solscan</a> | <a href=\"{bublemaps}\">BubbleMaps</a>{score_breakdown}{differential_breakdown}",
+  "trade_token_info": "<code>{token_address}</code>\n\n<a href=\"{token_image}\">💎</a> {token_name} ${token_symbol}\n🔆 Sol @ {market_name}\n\n💰 MC: ${market_cap}\n\uD83D\uDCCA ATH: ${ath}\n\uD83D\uDCA6 LP: ${liquidity} ({liquidityRatio})\n\uD83D\uDD12 LP Locked: {liquidity_lock_percentage}%\n🕰️ Age: {token_age}\n🪪 Top 10 Wallets: {top_10_holders}%\n🎯 Token Win Rate: {win_rate}\n🛠 Dev Wallet: {creator_percentage}%\n🤚 Holders: {number_holders}\n🔢 Supply: {supply}\n\n💰 Price: 5m: {price_change_5min} | 1h: {price_change_1hr} | 24h: {price_change_24hr}\n📍 Vol: 5m: ${volume_5min} | 1h: ${volume_1hr} | 24h: ${volume_24hr}\n\n➕ Mintable: {mint_authority}\n🔄 Mutable: {is_mutable}\n🧊 Freezable: {freeze_status}\n\n🔗 <a href=\"{dexscreen}\">DexS</a> | <a href=\"{dextools}\">DexT</a> | <a href=\"{birdeye}\">BirdEye</a>\n\n🔗 <a href=\"{x_com_link}\">X</a> | <a href=\"{telegram}\">TG</a> | <a href=\"{website}\">Site</a> | <a href=\"{x_com_mentions}\">X Mentions</a>\n\n🔗 <a href=\"{check_dex}\">CheckDex</a> | <a href=\"{holder_scan}\">HolderScan</a> | <a href=\"{pump_fun}\">PumpFun</a> | <a href=\"{rug_check}\">RugCheck</a> | <a href=\"{ttf_bot}\">TTF Bot</a> | <a href=\"{solscan}\">Solscan</a> | <a href=\"{bublemaps}\">BubbleMaps</a>\n{whale_details}\n",
+  "buy_from_alert": "💎${token_symbol}\n<code>{token_address}</code>\n\n",
+  "trading_wallet_info": "💼 <b>Wallet:</b> <code>{wallet_address}</code>\n⚖️ Balance SOL: {balance_sol_in_sol} SOL (${balance_sol_in_usdc})\n⚖️ Balance Tokens: {balance_tokens_in_sol} (${balance_tokens_in_usdc})\n🏆 PNL: {pnl_per_user_per_token}\n🧐 Priority Fee: {priority_fee} SOL\n🔄 Slippage: {slippage}%\n💰 Min Buy: {min_buy} SOL\n🛡️ MEV protection: {mevProtection}\n📈 Initial Token Amount: {initial_token_amount}\n👻 Sol Price: ${sol_price_in_usdc}\n",
+  "call_type": {
+    "raydium_token_launch": "🚀 @AlgoraCallBot has detected a new token that hit Raydium within the past 3 hours. New tokens on Raydium are higher risk.",
+    "new_call": "🚀 New call detected by @AlgoraCallBot",
+    "large_sell": "📉 Call Update: Large sell detected by @AlgoraCallBot",
+    "large_buy": "📈 Call Update: Volume increase detected by @AlgoraCallBot",
+    "separator": "separator",
+    "buy_trend": "📈 Call Update: Buy trend deteced by @AlgoraCallBot",
+    "sell_trend": "📉 Call Update: Sell trend detected by @AlgoraCallBot"
+  },
+  "dynamic_token": "<b>{tokenName}</b> <code>{tokenAddress}</code>\nBalance: {tokenBalance} ({tokenBalanceInUsdc})",
+  "faq": {
+    "title": "FAQ",
+    "questions": [
+      {
+        "question": "❓ What is Default Buy?",
+        "answer": "┗━ The Default Buy is what you set to enable faster trading for transactions."
+      },
+      {
+        "question": "❓ What is Slippage?",
+        "answer": "┗━ Slippage allows you to adjust the allowed percentage difference between the expected price of a transaction and the actual price. The default is 1%."
+      },
+      {
+        "question": "❓ What is a Priority Fee?",
+        "answer": "┗━ The priority fee is set to .0001 SOL by default and is the fee you pay to ensure faster processing of your transactions."
+      },
+      {
+        "question": "❓ What is MEV?",
+        "answer": "┗━ MEV stands for Miner Extractable Value, which prevents frontrunning by using MEV protection. Also known as sandwiched. This feature is on by default."
+      },
+      {
+        "question": "❓ What is the Target MarketCap?",
+        "answer": "┗━ The target market capitalization range for your calls."
+      },
+      {
+        "question": "❓ What are Market Cap parameters?",
+        "answer": "┗━ This monitors the ratio of tokens held by the top 10 holders."
+      },
+      {
+        "question": "❓ What is the Developer Wallet Percentage?",
+        "answer": "┗━ Market cap parameters allow you to choose the parameters of market cap Algora will send you. You may choose multiple parameters at once."
+      },
+      {
+        "question": "❓ What is 10 Top Holders?",
+        "answer": "┗━ This monitors the ratio of tokens held by the top 10 holders."
+      },
+      {
+        "question": "❓ What is the Dev Wallet Percentage?",
+        "answer": "┗━ This monitors the percentage of tokens held by the developer wallet. Many cases, the dev wallet bundles supply or sells after launch."
+      },
+      {
+        "question": "❓ What is the Freeze Status?",
+        "answer": "┗━ Freeze authority is a security feature on the Solana blockchain that gives a specific wallet address the power to freeze or unfreeze token accounts. This feature is similar to mint authority, which allows an account to create new units of a token."
+      },
+      {
+        "question": "❓ How to change settings?",
+        "answer": "┗━ Use /settings to change your preferences."
+      },
+      {
+        "question": "❓ What is call strength?",
+        "answer": "┗━ Call strength accumulates many data sets and is formulated by the algorithm to give the strength of a call/signal."
+      },
+      {
+        "question": "❓ What is ATH?",
+        "answer": "┗━ ATH stands for All-Time High. This represents the highest Market Cap the token of the call/signal has reached at the time it’s sent to the user."
+      },
+      {
+        "question": "❓ What is LP locked?",
+        "answer": "┗━ When a token is locked as a liquidity provider (LP), it means that the token is being used to provide liquidity to a pool and cannot be drained by the dev."
+      },
+      {
+        "question": "❓ What is the token win rate?",
+        "answer": "┗━ Token win rate is an accumulation of trades in a token that is formulated to give a percentage based on buys and sells at the time of the call/signal to the user."
+      },
+      {
+        "question": "❓ What is Whale Detection?",
+        "answer": "┗━ Whale detection is a list of whales in a token with a combined portfolio of over $100k."
+      },
+      {
+        "question": "❓ What is the referral program rewards?",
+        "answer": "┗━ The referral program pays out daily to your Algora wallet and is 20% revenue of subscriptions and 30% of each trade (of the 1% tax per trade)."
+      },
+      {
+        "question": "❓ Is my money safe using the Algora trading feature?",
+        "answer": "┗━ Yes. We take security very seriously and high-level security features have been implemented to protect all users and their assets."
+      },
+      {
+        "question": "❓ Where to contact support?",
+        "answer": "┗━ Join our Telegram group for support at @AlgoraChat"
+      },
+      {
+        "question": "❓ Does Algora have an X (Twitter) account?",
+        "answer": "┗━ Follow the official page at X.com/AlgoraBot"
+      },
+      {
+        "question": "❓ Does Algora have a website?",
+        "answer": "┗━ Yes. Visit AlgoraBot.com"
+      }
+    ]
+  },
+  "help_menu_message": "<blockquote>Help Menu</blockquote>\n\n<b>/referral</b> - {referralDescription}\n<b>/help</b> - {helpDescription}\n<b>/settings</b> - {settingsDescription}\n<b>/trade</b> - {tradeDescription}\n<b>/subscription</b> - {subscriptionDescription}\n<b>/wallet</b> - {walletDescription}\n<b>/portfolio</b> - {portfolioDescription}\n\n<blockquote>Further questions? Join: <a href=\"https://t.me/algorachat\">Algora Chat</a></blockquote>",
+  "plan_message": "<blockquote>🚨 Upgrade to Algora Signals</blockquote>\nCost: $197 USDC per month\n\n📋 Subscription: {currentPlan}\n📅 Expires on: {expirationDate}\n\n<i>Get detailed analytics alerts for Solana tokens.</i>",
+  "plan_confirmation_subscribe": "Please confirm that you want to subscribe to the Algora Alerts plan. Cost: {amount} USDC",
+  "plan_confirmation_update": "Please confirm that you want to update to the Algora Alerts plan. Cost: {amount} USDC",
+  "position_menu": "<blockquote>🎯️ Balance below $1 USD will not be displayed\n🏁 Choose token for fast trading</blockquote>",
+  "plan_remaining_time": {
+    "days_hours": "{days} days and {hours} hours",
+    "hours": "{hours} hours",
+    "less_than_hour": "less than an hour"
+  },
+  "referral_menu": "ℹ️ Referral ID: {referral_id}\nReferred users: {referred_users}\n🔗 Referral Link: <code>{referral_link}</code> (Tap to copy)\n\nRewards:\n💱 Trade (0.1 min SOL to claim): {claim_rewards_sol} SOL\n🪧 Subscription ($30 min to claim): ${claim_rewards_usdc} USDC",
+  "settings_trade_menu": "<blockquote>Trade Settings</blockquote>\n⚙️ <b>Default Buy:</b> {minBuy} SOL\n🎿 <b>Slippage:</b> {slippage}%\n🏆 <b>Priority Fee:</b> {priorityFee} SOL\n🛡️ <b>MEV Protection:</b> {mevProtection}\n💼 <b>Withdrawal wallet:</b> {withdrawWallet}",
+  "settings_alerts_menu": "<blockquote>Call Settings (Multiple choice)</blockquote>\n🧢 Target MarketCap: {marketCapRange}",
+  "start_message": "<blockquote>🤖 <b>Welcome to Algora Bot</b></blockquote>\n<i>Your assistant for managing token alerts and trading.</i>\n\n✨ <b>Features:</b>\n📞 <b>Filters:</b> Use /settings to set up filters\n💼 <b>Trade:</b> Use /trade\n🏆 <b>Refer Friends:</b> Use /referral\n🎒 <b>Wallet:</b> Use /wallet\n📋 <b>Plan:</b> Use /plan\n⚙️ <b>Settings:</b> Customize with /settings\n\n<blockquote>To use the Algora bot, you should be subscribed to the chat below.</blockquote>",
+  "trade_settings": {
+    "wallet_address": "<b>👝 Withdrawal Wallet Address:</b> <code>{walletAddress}</code>",
+    "balance": "<b>💸 Balance:</b> {balance} SOL",
+    "withdraw_wallet": "<b>📤 Withdrawal wallet address:</b> {withdrawWallet}"
+  },
+  "trading_pnl_poster": "PNL Report: Share with friends to use @AlgoraBot",
+  "transactions": {
+    "initializing_transaction": "⏳ Sending transaction, please wait..."
+  },
+  "export_private_key": "<blockquote>⚠️ NEVER share your private key. If somebody possesses your key, they can steal your funds. Store it securely. ⚠️</blockquote>\n\n<b>🔑️ Your private key is:</b>\n<code>{privateKey}</code> (Tap to copy)\nThis message will be deleted in 1 minute\n\n⚠️ Always use Two-Step Verification for Telegram:\n🟰 Select the three-line icon.\n⚙️ Go to the Settings menu.\n🕵️ Select Privacy and Security.\n🪪 Click on the Two-Step Verification option.\n🔑 You will then be asked to enter your password.",
+  "wallet_address": "Make sure you send on Solana chain, deposit address: <code>{wallet_address}</code>",
+  "wallet_info": "👛 <b>Wallet Address:</b><code>{wallet_address}</code>\n🫰 {balance} SOL | 💵 ${usdc_balance} USDC\n 👛 <b>Withdrawal wallet:</b> <code>{withdrawWallet}</code>\n\n<blockquote>⚠️ Users are responsible for their financial decisions and the security of their wallets. Use the trading features responsibly and understand the risks involved.\n\n</blockquote>",
+  "withdraw_wallet_confirmation": "<blockquote>⚠️ confirmation receipt</blockquote>\nYou want to withdraw to\n<code>👝 {withdrawWallet}</code>\n 💰 {amountToSend} SOL",
+  "post_message": "{messageText}",
+  "input_messages": {
+    "add_withdraw_wallet": "✍️ Please enter Solana wallet to withdraw:",
+    "devWalletPercentage": "✍️ Enter development wallet percentage:",
+    "maxBuy": "✍️ Enter maximum buy amount:",
+    "maxMarketCap": "✍️ Enter maximum market cap:",
+    "minBuy": "✍️ Enter minimum buy amount:",
+    "minMarketCap": "✍️ Enter minimum market cap:",
+    "numberOfHoldersMin": "✍️ Please enter the minimal number of holders:",
+    "priorityFee": "✍️ Enter priority fee amount:",
+    "prompt": "{promptMessage}",
+    "set_slippage": "✍️ Enter slippage percentage:",
+    "broadcast_solana_token": "✍️ ️Enter Solana token to broadcast to subscribers:",
+    "message_to_subs": "✍️ ️Enter Text that you want to send to subscribers:",
+    "solana_token": "✍️ ️Enter Solana token to trade:",
+    "token_not_found": "✍️ ️Token not found. Please enter valid solana token address.",
+    "spikeVolumeThreshold": "✍️ Enter spike volume threshold:",
+    "swap_sol_usdc": "✍️ Enter amount to swap SOL to USDC (minimal 0.01 SOL):",
+    "swap_usdc_sol": "✍️ Enter amount to swap USDC to SOL (minimal 1.0 USDC):",
+    "tokenAgeMin": "✍️ Please enter the minimal token age in hours:",
+    "topHoldersRatio": "✍️ Enter top holders ratio:",
+    "whaleThreshold": "✍️ Enter whale threshold:",
+    "withdrawWallet": "✍️ Enter withdrawal wallet address:",
+    "withdraw_amount": "✍️ Please enter the amount of SOL to withdraw:",
+    "x_sol_buy": "✍️ Enter the amount of SOL you want to buy:"
+  },
+  "success_messages": {
+    "new_post_success": "🎉 You have successfully sent message to subscribers!",
+    "claim_success": "<blockquote>🎉 You have successfully claimed {amount} {rewardType}!</blockquote>\n\n 💰 Amount: {amount} {rewardType}\n👁️ <a href=\"{solscanUrl}\">View on Solscan</a>",
+    "subscription_success": "<blockquote>🎉 Your {solana.transactionType} Plan transaction was successful!</blockquote>\n\n Welcome to <a href=\"{tier_channel_link}\">Algora {solana.transactionType}</a>",
+    "swap_token_success": "<blockquote>🎉 Transaction {transactionType} successful!</blockquote>\n\n👁️ <a href=\"{solscanUrl}\">View on Solscan</a>",
+    "swap_sol_usdc_success": "<blockquote>🎉 Transaction {transactionType} successful!</blockquote>\n\n👁️ <a href=\"{solscanUrl}\">View on SolScan</a>\n\n💰 Amount: {amountSOL} SOL\n📈 Tokens: {amountTokens}",
+    "swap_usdc_sol_success": "<blockquote>🎉 Transaction {transactionType} successful!</blockquote>\n\n👁️ <a href=\"{solscanUrl}\">View on SolScan</a>\n\n💰 Amount: {amountSOL} SOL\n📈 Tokens: {amountTokens}",
+    "swap_token_sol_success": "<blockquote>🎉 Transaction {transactionType} successful!</blockquote>\n\n👁️ <a href=\"{solscanUrl}\">View on SolScan</a>\n\n💰 Amount: {amountSOL} SOL\n📈 Tokens: {amountTokens}",
+    "swap_sol_token_success": "<blockquote>🎉 Transaction {transactionType} successful!</blockquote>\n\n👁️ <a href=\"{solscanUrl}\">View on SolScan</a>\n\n💰 Amount: {amountSOL} SOL\n📈 Tokens: {amountTokens}"
+  },
+  "error_messages": {
+    "insufficient_balance": "🚨 You should have at least 0.01 SOL on your balance to start trading. Please use /wallet to deposit money.",
+    "insufficient_funds_sol": "🚨 Insufficient SOL balance.",
+    "insufficient_funds_usdc": "🚨 Insufficient USDC balance.",
+    "insufficient_input_sol": "🚨 Please, enter more than 0.01 SOL.",
+    "insufficient_input_usdc": "🚨 Please, enter more than 1.0 USDC.",
+    "invalid_amount": "🚨 Invalid number. Please try again.",
+    "invalid_percentage_error": "🚨 Value must be a positive number from 0 to 100.",
+    "max_buy_less_than_min_buy_error": "🚨 <b>Maximum Buy</b> cannot be less than <b>Minimum Buy.</b>",
+    "max_marketcap_less_than_min_marketcap_error": "🚨 <b>Maximum Market Cap</b> cannot be less or equal to <b>Minimum Market Cap.</b>",
+    "min_buy_greater_than_max_buy_error": "🚨 <b>Minimum Buy</b> cannot be greater than <b>Maximum Buy.</b>",
+    "min_marketcap_greater_than_max_marketcap_error": "🚨 <b>Minimum Market Cap</b> cannot be greater or equal to <b>Maximum Market Cap.</b>",
+    "no_rewards_error": "🚨 You don't have enough rewards to claim yet.",
+    "no_tokens_found": "🚨 No tokens were detected in your account.\n\nPlease use /trade to start trading.",
+    "no_withdraw_wallet_error": "🚨 No withdraw Solana wallet address detected, please use /settings to set up.",
+    "not_number_error": "🚨 Value must be a number.",
+    "not_positive_input_error": "🚨 Value must be a positive number.",
+    "payment_failed_error": "🚨 Payment failed. Please try again.",
+    "percentage_range_error": "🚨 Slippage must be a number between 0 and 100.",
+    "portfolio_no_tokens_error": "🚨 You have no tokens in your portfolio.",
+    "same_input_error": "🚨 New value cannot be the same as the current value.",
+    "solana_doesnt_response_error": "🚨 Solana blockchain doesn't respond. Please try again later.",
+    "solana_rent_exemption_error": "🚨 Insufficient funds to cover the rent exemption balance. Please ensure your account has enough SOL.",
+    "solana_swap_error": "🚨 Swap failed. Please try again.",
+    "solana_token_address_error": "🚨 Invalid Solana token address. Please enter a valid Solana token address.",
+    "solana_wallet_input_error": "🚨 Invalid Solana wallet address. Please enter a valid Solana wallet address.",
+    "swap_failed": "🚨 Swap failed. Please try again later.",
+    "token_analysis_error": "🚨 An error occurred during token analysis.",
+    "transaction_failed_error": "{error}",
+    "up_to_date_error": "🚨 An unexpected error occurred, please repeat the request.",
+    "update_failed": "🚨 An unexpected error occurred, please repeat the request."
+  }
+}
